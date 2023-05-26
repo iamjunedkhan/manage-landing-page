@@ -9,7 +9,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='md:px-28 bg-blue-950 flex justify-between  py-20 flex-col-reverse md:flex-row  md:items-stretch items-center  border border-white' >
+        <div className='md:px-28 bg-blue-950 flex justify-between  py-20 flex-col-reverse md:flex-row  md:items-stretch items-center  ' >
             <div className='flex flex-col-reverse  md:flex-col md:justify-between md:py-8 '>
                 <div className='my-9 md:my-0 flex justify-center'>
                     <img src={logo.src} alt=""  className='text-white'/>
